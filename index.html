@@ -3,11 +3,12 @@
 <body>
     <div id="ans">
         
-        <script>const prompt = require('prompt-sync')();
+        <script>
+            // const prompt = require('prompt-sync')();
             var responses = ['Yes, indeed', 'CERTINALY NOT!', 'It is uncertain', 'Try again',
                 'Maybe?', 'It is not worth', 'Quite indeed that is a good choice my friend!', 'IF YOU CARRY THIS ACTION THROUGH, YOU WILL LOSE 81% POSITIVE WHIMSICAL',
                 'Whimsical Indeed', 'Very UnWhimsical', 'Im just a fortune telling gnome, I cant in good nature predict that!']
-            var question = prompt('Type your ponderings, I shall fill the gaps in your knowladge! For I, am the Fortune Gnome!  : ');
+            // var question = prompt('Type your ponderings, I shall fill the gaps in your knowladge! For I, am the Fortune Gnome!  : ');
             var fortune = responses[Math.floor(Math.random() * responses.length)];
             console.log(fortune);
             document.getElementById("ans").innerHTML = fortune;
