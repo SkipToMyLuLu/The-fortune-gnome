@@ -29,9 +29,9 @@
     background: radial-gradient(rgb(66, 245, 173), rgb(66, 245, 212))rgb(66, 123, 245);
     /* Example gradient */
 
-    background-size: 300% 299.999%;
+    background-size: 100% 100%;
     /* Repeat the gradient */
 
-    animation: gradientAnimation 25s ease infinite;
+    animation: gradientAnimation 10s ease infinite;
     /* Animation settings */
 }
