@@ -7,17 +7,18 @@
 }
 #subtitle {
     font-family: Helvetica;
-    font-size: 0.7em;
+    font-size: 1.4em;
     padding-left: 36px;
     padding-top: 10px;
 }
 #ans {
     font-family: Futura;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-top:5px;
     padding-left: 12px;
 }
 #input {
     font-family: Futura;
-    font-size: 0.5em;
+    font-size: 1em;
+    padding-top: 12px;
 }
