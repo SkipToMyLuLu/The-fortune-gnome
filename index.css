@@ -2,7 +2,10 @@
     /* Your CSS properties here */
     color: rgb(54, 158, 255);
     font-size: 3em;
-    font-family: Times New Roman;
+    font-family: Arial;
     text-align: center;
 }
-
+#subtitle {
+    font-family: Futura;
+    font-size: 2em;
+}
