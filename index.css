@@ -5,33 +5,40 @@
     font-family: Arial;
     text-align: center;
 }
+
 #subtitle {
     font-family: Helvetica;
     font-size: 1.4em;
     padding-left: 36px;
     padding-top: 10px;
 }
+
 #ans {
     font-family: Futura;
     font-size: 1.2em;
-    padding-top:5px;
+    padding-top: 5px;
     padding-left: 12px;
 }
+
 #input {
     font-family: Futura;
     font-size: 1em;
     padding-top: 12px;
 }
+
 .EVERYTHING {
-/*     script yoinked from my figure dance project */
-      cursor: grab;
+    /*     script yoinked from my figure dance project */
+    cursor: auto;
     /* background: radial-gradient(blue, purple, rgb(0, 149, 255)); */
-    background: radial-gradient(rgb(6, 37, 102), rgb(6, 97, 97))rgb(6, 68, 97);
+    background: radial-gradient(rgb(10, 58, 161), rgb(8, 127, 127))rgb(7, 78, 111);
     /* Example gradient */
 
-    background-size: 100% 100%;
+    background-size: 200% 100%;
     /* Repeat the gradient */
 
     animation: gradientAnimation 10s ease infinite;
     /* Animation settings */
+
+
+
 }

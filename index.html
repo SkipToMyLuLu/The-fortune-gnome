@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html class="EVERYTHING" lang="us">
 <div id="title">Fortune Gnome 1.0</div>
-    <div id="subtitle">Welcome to the fortune gnome! 
-    Just type your ponderings into the box below, and they shall be 
+<div id="subtitle">Welcome to the fortune gnome!
+    Just type your ponderings into the box below, and they shall be
     answered with your fortune!</div>
-    
+
 <body>
     <p></p>
     <div id="ans" class="fortune_ans">
@@ -17,21 +17,24 @@
             var fortune = responses[Math.floor(Math.random() * responses.length)];
             console.log("debug message for devs | this is the fortune to be told:" + fortune);
             document.getElementById("ans").innerHTML = fortune;
+            window.open("index.html", "_self");
+
         </script>
-        
+
     </div>
 
-     <div id="input">
-        Type in your ponderings and hit the [ ENTER | or | RETURN ] key 
-         to have it answered!
+    <div id="input">
+        Type in your ponderings and hit the [ ENTER | or | RETURN ] key
+        to have it answered!
         <form name="TEST">
             <input type="text" name="fortune" id="fortunebox">
         </form>
     </div>
 </body>
-    <head>
-        <link rel="stylesheet" href="index.css">
-       <title>The Fortune Gnome: Get Your Fortunes Told!</title> 
-    </head>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>The Fortune Gnome: Get Your Fortunes Told!</title>
+</head>
 
 </html>
